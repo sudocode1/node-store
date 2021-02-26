@@ -13,16 +13,20 @@ Run this using `node installer.js` and press enter when it asks you.
 You can also install via the console using the instructions displayed below. <br>
 
 Run this command to install the packages needed:
+
 ```js
 npm i node-fetch console-menu prompt-sync string-similarity fs
 ```
+
 <br> 
-Enter the NodeJS runtime using `node` and do the following: <br>
+Enter the NodeJS runtime using `node` and do the following: 
+
 ```js
 let f=require("node-fetch");f(`https://raw.githubusercontent.com/sudocode1/node-store/master/index.js`).then(d => d.text()).then(d => require("fs").writeFileSync(`index.js`, d));
 ```
 <br>
-You should be returned: <br>
+You should be returned: 
+
 ```js
 Promise { <pending> }
 ```
