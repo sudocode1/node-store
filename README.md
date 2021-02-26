@@ -1,3 +1,5 @@
+<a href="https://david-dm.org/sudocode1/node-store"><img src="https://img.shields.io/david/sudocode1/node-store.svg?maxAge=3600" alt="Dependencies" /></a>
+
 # node-store
 A JavaScript package store, based on JPac from [sudocode1/ndos](https://github.com/sudocode1/ndos).
 
