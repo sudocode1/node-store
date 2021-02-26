@@ -72,10 +72,9 @@ async function pr() {
             const code = Buffer.from(f.split('|')[1], 'base64').toString();
             const key = fs.readFileSync(`./private/${args[0]}/key.txt`, 'utf8');
             // todo: make it hard to change the bit which asks for the key
-            console.log(code, key)
             const keyI = prompt('Key: ');
             if (key !== keyI) break;
-            eval(`(async () => {${code}})()`);
+            await eval(`(async () => {${code}})()`);
         }
         break;
     }
