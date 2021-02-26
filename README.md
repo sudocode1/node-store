@@ -47,3 +47,7 @@ Download the source code directly from GitHub and install the NPM Packages `node
 There is also a web store in progress [here](https://nodestore.7m.pl/storehtml) and you can download packages via your browser from a list [here](https://nodestore.7m.pl/store).
 
 ## Creating packages for node-store
+Code your package using JavaScript and **do not use async anywhere, it is not necessary**, you can use await but async is not needed. <br>
+Use [1s3k3b](https://github.com/1s3k3b)'s pakcreator package to create a `.PAK` file. <br>
+This will ask for a name for your package, the NPM packages needed, the file your JS is in, the key you want to set and the folders required. <br>
+You can submit it more the main CLI & Web store by DMing `roux#0493` or `1s3k3b#0001` on Discord with your `.PAK` file. There is not an 100% chance it will be approved. <br>
