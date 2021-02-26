@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "console-menu": "^0.1.0",
+    "node-fetch": "^2.6.1",
+    "pretty-ms": "^7.0.1",
+    "prompt-sync": "^4.2.0",
+    "string-similarity": "^4.0.4"
+  }
+}
