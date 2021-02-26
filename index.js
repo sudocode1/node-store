@@ -5,7 +5,7 @@ const fs=require("fs");
 const { findBestMatch } = require("string-similarity");
 const { execSync } = require("child_process");
 
-for (const dir of ['./private', './packages']) try { fs.mkdirSync(dir) } catch (e) {};
+for (const dir of ['./private', './packaged']) try { fs.mkdirSync(dir) } catch (e) {};
 /*try {fs.readdirSync(`./private`)} catch(e) {fs.mkdirSync(`private`)};
 try {fs.readdirSync(`./packaged`)} catch(e) {fs.mkdirSync(`packaged`)};*/
 let dma = Buffer.from(`aHR0cDovL25vZGVzdG9yZS43bS5wbC9zdG9yZS8=`, `base64`).toString();
