@@ -17,12 +17,12 @@ Run this command to install the packages needed:
 npm i node-fetch console-menu prompt-sync string-similarity fs
 ```
 <br> 
-Enter the NodeJS runtime using `node` and do the following:
+Enter the NodeJS runtime using `node` and do the following: <br>
 ```js
 let f=require("node-fetch");f(`https://raw.githubusercontent.com/sudocode1/node-store/master/index.js`).then(d => d.text()).then(d => require("fs").writeFileSync(`index.js`, d));
 ```
 <br>
-You should be returned:
+You should be returned: <br>
 ```js
 Promise { <pending> }
 ```
