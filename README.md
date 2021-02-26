@@ -2,6 +2,10 @@
 A JavaScript package store, based on JPac from [sudocode1/ndos](https://github.com/sudocode1/ndos). <br>
 <a href="https://david-dm.org/sudocode1/node-store"><img src="https://img.shields.io/david/sudocode1/node-store.svg?maxAge=3600" alt="Dependencies" /></a>
 
+- [Installation](#installation)
+- [How to use](#how-to-use-node-store)
+- [Creating Packages](#creating-packages-for-node-store)
+
 ## Installation
 We have multiple ways of installing node-store, and you can pick the most suited one for you below.
 
@@ -41,3 +45,5 @@ Download the source code directly from GitHub and install the NPM Packages `node
 `exit` - Exit node-store. <br> <br>
 
 There is also a web store in progress [here](https://nodestore.7m.pl/storehtml) and you can download packages via your browser from a list [here](https://nodestore.7m.pl/store).
+
+## Creating packages for node-store
